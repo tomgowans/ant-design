@@ -30,9 +30,9 @@ phases:
       - npm ci
       # - command
       # - command
-  # pre_build:
-  #   commands:
-  #     - npm run test
+  pre_build:
+    commands:
+      - npm run test
       # - command
       # - command
   build:
